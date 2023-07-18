@@ -1,0 +1,115 @@
+.job-view-main {
+  position: absolute;
+  background-color: rgba(186, 203, 203, 0.463);
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job-view-container {
+  background-color: white;
+  width: max-content;
+  height: max-content;
+  padding: 25px;
+  border-radius: 20px;
+}
+.job-view-title {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+}
+.des-icon-container {
+  height: 30px;
+}
+.job-edit-icon {
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.job-edit-icon :hover {
+  background-color: rgba(153, 215, 242, 0.39);
+}
+.job-edit-icon img {
+  height: 25px;
+}
+.job-view-des {
+  text-transform: capitalize;
+  text-align: left;
+  font-weight: 600;
+}
+.job-view-status {
+  text-align: left;
+}
+
+.job-view-status {
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.job-view-status span {
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: rgb(13, 13, 13);
+}
+
+.job-view-employee-container {
+  background-color: aliceblue;
+  width: 50vw;
+  padding: 10px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.employees-working {
+  text-align: left;
+  font-weight: 700;
+}
+.employees-map-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.job-view-employees {
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: rgb(208, 205, 201);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100px; */
+  /* width: 20%; */
+  flex-shrink: 0;
+  /* color: white; */
+  /* margin: 2.5%; */
+}
+.job-view-employees img {
+  width: 23px;
+}
+.job-view-start_end {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.job-view-start-date span {
+  font-weight: 700;
+}
+.job-view-end-date span {
+  font-weight: 700;
+}
+.comment-box {
+  background-color: aliceblue;
+  padding: 10px;
+}
+.comment-box-title {
+  font-weight: 700;
+}
+
+.Dropdown {
+  background-color: aqua;
+}
